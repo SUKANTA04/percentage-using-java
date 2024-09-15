@@ -1,0 +1,53 @@
+
+import java.util.Scanner;
+
+public class StudentGrade {
+	private static Scanner sc;
+	public static void main(String[] args) 
+	{
+		int Physics, Chemistry, Biology, Mathematics, Computer, x ;
+		sc = new Scanner(System.in);
+        System.out.println("enter your physics marks:");
+        Physics= sc.nextInt();
+        System.out.println("enter your Chemistry marks:");
+        Chemistry= sc.nextInt();
+        System.out.println("enter your  Biology marks:");
+        Biology= sc.nextInt();
+        System.out.println("enter your Computer marks:");
+        Computer= sc.nextInt();
+        System.out.println("enter your Mathematics marks:");
+        Mathematics= sc.nextInt();
+        x=((Physics+Chemistry+Biology+Mathematics+Computer)/500)*100;
+        System.out.println("your percentage is:"+x);
+        
+			
+		
+	    
+	 
+	  
+	}
+}
+
+
+enter your physics marks:
+100
+enter your Chemistry marks:
+100
+enter your  Biology marks:
+100
+enter your Computer marks:
+100
+enter your Mathematics marks:
+100
+your percentage is:100
+
+	    
+	    
+	    
+	    
+	    
+	    
+	    
+	    
+	    
+	    
